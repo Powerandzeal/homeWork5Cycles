@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        exersize3();
+        exersize1(); exersize2(); exersize3();
     }
 
     public static void exersize1() {
+
         int i = 0;
         while (i < 10) {
             i++;
@@ -13,9 +14,11 @@ public class Main {
         for (int a = 10; a > 0; a--) {
             System.out.print(" " + a);
         }
+        System.out.println();
     }
 
     public static void exersize2() {
+
         int firstFriday = 5;
         for (int day = 1; day <= 31; day++) {
             //System.out.println(day);
@@ -29,7 +32,7 @@ public class Main {
     }
 
     public static void exersize3() {
-
+        System.out.println();
         for (int asteroidFly = 1822; asteroidFly < 2200; asteroidFly++) {
 
             if (asteroidFly % 79 == 0 && asteroidFly < 2022) {

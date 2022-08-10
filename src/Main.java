@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        exersize3 ();
+        exersize3();
     }
 
     public static void exersize1() {
@@ -15,25 +15,30 @@ public class Main {
         }
     }
 
-    public static void exersize2 () {
+    public static void exersize2() {
         int firstFriday = 5;
-        for (int day = 1; day <=31; day++) {
+        for (int day = 1; day <= 31; day++) {
             //System.out.println(day);
             if (day % firstFriday == 0) {
-                firstFriday=firstFriday+7;
-                System.out.println("Сегодня пятница, "+ day +"-е число. Необходимо подготовить отчет.");
+                firstFriday = firstFriday + 7;
+                System.out.println("Сегодня пятница, " + day + "-е число. Необходимо подготовить отчет.");
 
             }
         }
 
     }
-    public static void exersize3 () {
-        int asteroidFly200 = 0;
-        int asteroidFly100 = 0;
-        for (int asteroidFly=0; asteroidFly<2100;asteroidFly++){
-            if (asteroidFly %79 == 0) {
-                System.out.println(asteroidFly);
+
+    public static void exersize3() {
+
+        for (int asteroidFly = 1822; asteroidFly < 2200; asteroidFly++) {
+
+            if (asteroidFly % 79 == 0 && asteroidFly < 2022) {
+                System.out.println("Астероид пролетал в " + asteroidFly);
             }
+            else if (asteroidFly % 79 == 0 && asteroidFly < 2122) {
+                System.out.println("Астероид пролетит в " + asteroidFly);
+            }
+
         }
     }
 

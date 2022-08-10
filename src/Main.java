@@ -1,8 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        exersize1(); exersize2(); exersize3();
+        exersize1();
+        exersize2();
+        exersize3();
     }
 
+    // Первое домашнее задание
     public static void exersize1() {
 
         int i = 0;
@@ -17,6 +20,7 @@ public class Main {
         System.out.println();
     }
 
+    // Второе домашнее задание
     public static void exersize2() {
 
         int firstFriday = 5;
@@ -31,14 +35,14 @@ public class Main {
 
     }
 
+    // Третье домашнее задание
     public static void exersize3() {
         System.out.println();
         for (int asteroidFly = 1822; asteroidFly < 2200; asteroidFly++) {
 
             if (asteroidFly % 79 == 0 && asteroidFly < 2022) {
                 System.out.println("Астероид пролетал в " + asteroidFly);
-            }
-            else if (asteroidFly % 79 == 0 && asteroidFly < 2122) {
+            } else if (asteroidFly % 79 == 0 && asteroidFly < 2122) {
                 System.out.println("Астероид пролетит в " + asteroidFly);
             }
 

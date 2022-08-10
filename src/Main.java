@@ -38,11 +38,11 @@ public class Main {
     // Третье домашнее задание
     public static void exersize3() {
         System.out.println();
-        for (int asteroidFly = 1822; asteroidFly < 2200; asteroidFly++) {
+        for (int asteroidFly = 0; asteroidFly < 2200; asteroidFly++) {
 
-            if (asteroidFly % 79 == 0 && asteroidFly < 2022) {
+            if (asteroidFly % 79 == 0 && asteroidFly < 2022&& asteroidFly>1822) {
                 System.out.println("Астероид пролетал в " + asteroidFly);
-            } else if (asteroidFly % 79 == 0 && asteroidFly < 2122) {
+            } else if (asteroidFly % 79 == 0 && asteroidFly < 2122&& asteroidFly>2022) {
                 System.out.println("Астероид пролетит в " + asteroidFly);
             }
 
